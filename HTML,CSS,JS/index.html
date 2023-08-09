@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title> NHC </title>
+</head>
+
+<body>
+  <h1 style="color:red";> Welcome To Nova Hosting Company </h1>
+  <img src="nh.png" alt="nh" width="350" height="400">
+  <p style="color:white";> We provide to you some <span style = "color:rgb(0, 238, 255)"> Online Services. </span> </p>
+  <a href="https://www.facebook.com/NovaHostingCompany/">Face Book</a>
+  <a href="https://nova-hosting-company.site123.me/">Website</a>
+  <p>We provide to you:</p>
+  <ol><li>Hosts</li><li>Servers</li><li>DNS</li></ol>
+  <br>
+  <form>
+    First name <input type="text" name="firstname">
+    Last name <input type="text" name="lastname">
+    <br><br>
+    <label for="hostname">Host Name</label>
+    <input type="text" name="hostname" id="hostname" />
+    <label for="ip">IP</label>
+    <input type="text" name="ip" id="ip" />
+    <button type="submit">Submit</button>
+    <br><br>
+    <input type="radio" name="Type" value="Host" checked> Host
+    <input type="radio" name="Type" value="Server"> Server
+    <input type="radio" name="Type" value="DNS"> DNS
+    <br><br>
+    <input type="checkbox" name="terms" value="terms"> I'm agree.
+    <br><br>
+    <p> Please select your plan </p>
+    <select name="Plans">
+      <option value="Host"> Host </option>
+      <option value="Server"> Server </option>
+      <option value="DNS"> DNS </option>
+    </select>
+    <br><br>
+    <p> If you have another plan </p>
+    <select name="Plans" size="3" multiple>
+      <option value="Host"> Host </option>
+      <option value="Server"> Server </option>
+      <option value="DNS"> DNS </option>
+    </select>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

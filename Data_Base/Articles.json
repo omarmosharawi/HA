@@ -1,0 +1,44 @@
+[
+    {
+        "ArticleId": 111,
+        "ArticleName": "Python",
+        "Author": "Omar",
+        "Date": "2017"
+    },
+    {
+        "ArticleId": 222,
+        "ArticleName": "JS",
+        "Author": "Mahmoud",
+        "Date": "2023"
+    },
+    {
+        "ArticleId": 333,
+        "ArticleName": "R",
+        "Author": "Omar",
+        "Date": "2017"
+    },
+    {
+        "ArticleId": 444,
+        "ArticleName": "HTML",
+        "Author": "Adel",
+        "Date": "2023"
+    },
+    {
+        "ArticleId": 555,
+        "ArticleName": "PHP",
+        "Author": "Mohamed",
+        "Date": "2020"
+    },
+    {
+        "ArticleId": 666,
+        "ArticleName": "C++",
+        "Author": "Ahmed",
+        "Date": "2023"
+    },
+    {
+        "ArticleId": 777,
+        "ArticleName": "Ruby",
+        "Author": "Omar",
+        "Date": "2017"
+    }
+]
