@@ -129,8 +129,8 @@ let arrayop=['a','b','c'];
     // we can use any method depending on your program.
 arrayop[3]='d'; //add to array
 arrayop[arrayop.length]='d'; //another method to add to array
-arrayop.push(); // increase at the end of array
-arrayop.unshift(); // increase in front of array
+arrayop.push(); // add element (increase) at the end of array
+arrayop.unshift(); // add element (increase) in front of array
 arrayop.pop(); // remove last element from array
 arrayop.shift(); // remove first elemet form array
 arrayop.splice(); // arrayop.splice(index,numbertobedeleted,elementstoadd)
