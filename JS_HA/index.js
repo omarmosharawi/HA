@@ -133,16 +133,16 @@ arrayop.push(); // add element (increase) at the end of array
 arrayop.unshift(); // add element (increase) in front of array
 arrayop.pop(); // remove last element from array
 arrayop.shift(); // remove first elemet form array
-arrayop.splice(); // arrayop.splice(index,numbertobedeleted,elementstoadd)
+arrayop.splice(); // arrayop.splice(index,numbertobedeleted,elementstoadd) // add element in any index as you like
 arrayop.slice(); // slice is used when we want a copy of an array without changing original one
 arrayop.sort(); // sort alphabetically or numerically //should use .sort((a,b)=>a-b) to solve problem when we need to sort numbers
 arrayop.reverse();// reverse order of elements
 arrayop.join(); // join all elemnts with specific string
 arrayop.concat(); // concatinate two arrays into single array
-arrayop.indexOf(); // find index value of given item
-arrayop.find(); // find index value with terms ex: return num>10 //print first value
-arrayop.filter(); // find specfic index value ex: return num>10 //print all value
-arrayop.findIndex(); // find index value agree with terms // print first value of first number agree with terms
+arrayop.indexOf(); // find index value of given item if no element is found return -1
+arrayop.find(); // find index value with terms // ex: return num>10 // print first value
+arrayop.filter(); // find specfic index value // ex: return num>10 // print all value
+arrayop.findIndex(); // find index value agree with terms // print first value of first number agree with terms // if isn't found return -1
 arrayop.lastIndexOf(); // find last index value of givne item
 arrayop.includes(); // ex:check whether it contains some particular item or not (true or false)
 arrayop.forEach(); // use it to Traversing over the elements of the Array
