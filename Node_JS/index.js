@@ -28,7 +28,7 @@ file.writeFile('./new.txt',hello,'utf8',error => {
 
 
 
-//to increase in file or when file not defined create the file.
+//to edit the file (increase in file) or when file not defined create the file.
 file.appendFile('./new.txt',hello,'utf8',error => {
     if (error) console.log (error);
     else console.log('File Written.')
